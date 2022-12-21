@@ -1,0 +1,120 @@
+@font-face {
+    font-family: firago;
+    src:url(../Fonts/FiraGO-Regular.ttf);
+  }
+body{
+    background: #FDFDFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    height: 100vh;
+}
+.card{
+    width: 718px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+
+    padding-top: 40px;
+    padding-right: 51px;
+    padding-bottom: 63px;
+    padding-left: 51px;
+    
+}
+h1{
+    font-family: firago;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 26px;
+}
+
+.input_item label{
+    display: block;
+    font-family: 'firago';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+    margin-bottom: 5px;
+}
+.input_item input{
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+
+    width: calc(100% - 36px);
+    height: 12px;
+
+    padding: 18px;
+    padding-right: auto;
+}
+
+.input_item:first-child{
+    margin-bottom: 18px;
+}
+.input_item:last-child{
+    margin-bottom: 13px;
+}
+
+.test_block{
+    margin-bottom: 28px;
+}
+.lost_password{
+    font-family: 'firago';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #0653AD;
+    margin-bottom: 28px;
+}
+
+.card_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_details span {
+    font-family: 'firago';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+}
+.footer_details a {
+    font-family: 'firago';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #0653AD; /*განსხვავება*/
+}
+.btn{
+    width: 205px;
+    height: 47px;
+    border: 1px solid transparent;
+    background: #FFDD04;
+    border-radius: 10px;
+    font-family: 'firago';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
